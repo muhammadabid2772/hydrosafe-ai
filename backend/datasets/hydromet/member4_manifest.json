@@ -1,0 +1,37 @@
+{
+  "source_file": "Hydrometeorological data for 2019~2026\u5e74\u6c34\u6587\u6c14\u8c61\u6570\u636e (402 - CSAIL-402-000116-2024 - 1 - A) - 1.XLS",
+  "source_sha256": "39fef2016eb05dba58327cbb8fbfeedc67bf48d1121e5b8b4ef212f0c428e151",
+  "normalized_file": "member4_hydromet.csv",
+  "normalized_sha256": "2520e88181cda68c42affcff648cd8ecb106d2e4c72e5c0b62012ce19780459e",
+  "rows": 2800,
+  "complete_rows": 2679,
+  "date_start": "2019-01-01",
+  "date_end": "2026-09-01",
+  "missing_dates": [
+    "2021-10-24"
+  ],
+  "columns": [
+    "date",
+    "reservoir_level",
+    "tailwater",
+    "inflow",
+    "rainfall",
+    "temperature"
+  ],
+  "units": {
+    "reservoir_level": "m",
+    "tailwater": "m",
+    "inflow": "m3/s",
+    "rainfall": "mm",
+    "temperature": "C"
+  },
+  "source_header_aliases": {
+    "Date": "date",
+    "Reservoir water level": "reservoir_level",
+    "Tail water level": "tailwater",
+    "In flow": "inflow",
+    "Daily rainfall": "rainfall",
+    "Daily mean temperature": "temperature"
+  },
+  "usage": "Shared Member 4 statistical-screening history. It is not a labelled failure dataset or an approved action-level source."
+}

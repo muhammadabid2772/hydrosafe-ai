@@ -1,0 +1,30 @@
+{
+  "evaluated_at": "2026-09-12T13:32:24.573469+00:00",
+  "evaluation_type": "chronological 80/20 stability check; no ground-truth risk labels",
+  "series_evaluated": 536,
+  "training_readings": 76875,
+  "holdout_readings": 19489,
+  "scored_holdout_readings": 19489,
+  "missing_profile_readings": 0,
+  "holdout_band_counts": {
+    "NORMAL": 18798,
+    "WATCH": 324,
+    "WARNING": 176,
+    "CRITICAL": 191
+  },
+  "holdout_band_percent": {
+    "NORMAL": 96.45,
+    "WATCH": 1.66,
+    "WARNING": 0.9,
+    "CRITICAL": 0.98
+  },
+  "synthetic_robust_z_response": {
+    "0": 0,
+    "2": 16,
+    "3": 40,
+    "5": 80,
+    "8": 95
+  },
+  "synthetic_monotonic": true,
+  "interpretation": "Holdout bands measure deviation from earlier history, not false-positive rate or safety accuracy."
+}

@@ -1,0 +1,1741 @@
+{
+  "agent": "member2_validation",
+  "status": "ok",
+  "score": 97.0,
+  "total_records": 2800,
+  "valid_count": 2679,
+  "flagged_count": 121,
+  "quality_status": "GOOD",
+  "sensor_health": {
+    "reservoir_water_level": {
+      "total": 2800,
+      "missing": 120,
+      "missing_ratio": 0.0429,
+      "non_numeric": 0,
+      "out_of_range": 0,
+      "status": "WATCH"
+    },
+    "tail_water_level": {
+      "total": 2800,
+      "missing": 120,
+      "missing_ratio": 0.0429,
+      "non_numeric": 0,
+      "out_of_range": 0,
+      "status": "WATCH"
+    },
+    "in_flow": {
+      "total": 2800,
+      "missing": 0,
+      "missing_ratio": 0.0,
+      "non_numeric": 0,
+      "out_of_range": 0,
+      "status": "HEALTHY"
+    },
+    "daily_mean_temperature": {
+      "total": 2800,
+      "missing": 1,
+      "missing_ratio": 0.0004,
+      "non_numeric": 0,
+      "out_of_range": 0,
+      "status": "HEALTHY"
+    },
+    "daily_rainfall": {
+      "total": 2800,
+      "missing": 0,
+      "missing_ratio": 0.0,
+      "non_numeric": 0,
+      "out_of_range": 0,
+      "status": "HEALTHY"
+    }
+  },
+  "flags": [
+    {
+      "row": 0,
+      "timestamp": "2019-01-01 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 0,
+      "timestamp": "2019-01-01 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 1,
+      "timestamp": "2019-01-02 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 1,
+      "timestamp": "2019-01-02 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 2,
+      "timestamp": "2019-01-03 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 2,
+      "timestamp": "2019-01-03 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 3,
+      "timestamp": "2019-01-04 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 3,
+      "timestamp": "2019-01-04 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 4,
+      "timestamp": "2019-01-05 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 4,
+      "timestamp": "2019-01-05 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 5,
+      "timestamp": "2019-01-06 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 5,
+      "timestamp": "2019-01-06 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 6,
+      "timestamp": "2019-01-07 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 6,
+      "timestamp": "2019-01-07 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 7,
+      "timestamp": "2019-01-08 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 7,
+      "timestamp": "2019-01-08 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 8,
+      "timestamp": "2019-01-09 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 8,
+      "timestamp": "2019-01-09 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 9,
+      "timestamp": "2019-01-10 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 9,
+      "timestamp": "2019-01-10 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 10,
+      "timestamp": "2019-01-11 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 10,
+      "timestamp": "2019-01-11 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 11,
+      "timestamp": "2019-01-12 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 11,
+      "timestamp": "2019-01-12 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 12,
+      "timestamp": "2019-01-13 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 12,
+      "timestamp": "2019-01-13 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 13,
+      "timestamp": "2019-01-14 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 13,
+      "timestamp": "2019-01-14 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 14,
+      "timestamp": "2019-01-15 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 14,
+      "timestamp": "2019-01-15 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 15,
+      "timestamp": "2019-01-16 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 15,
+      "timestamp": "2019-01-16 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 16,
+      "timestamp": "2019-01-17 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 16,
+      "timestamp": "2019-01-17 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 17,
+      "timestamp": "2019-01-18 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 17,
+      "timestamp": "2019-01-18 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 18,
+      "timestamp": "2019-01-19 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 18,
+      "timestamp": "2019-01-19 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 19,
+      "timestamp": "2019-01-20 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 19,
+      "timestamp": "2019-01-20 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 20,
+      "timestamp": "2019-01-21 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 20,
+      "timestamp": "2019-01-21 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 21,
+      "timestamp": "2019-01-22 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 21,
+      "timestamp": "2019-01-22 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 22,
+      "timestamp": "2019-01-23 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 22,
+      "timestamp": "2019-01-23 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 23,
+      "timestamp": "2019-01-24 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 23,
+      "timestamp": "2019-01-24 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 24,
+      "timestamp": "2019-01-25 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 24,
+      "timestamp": "2019-01-25 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 25,
+      "timestamp": "2019-01-26 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 25,
+      "timestamp": "2019-01-26 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 26,
+      "timestamp": "2019-01-27 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 26,
+      "timestamp": "2019-01-27 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 27,
+      "timestamp": "2019-01-28 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 27,
+      "timestamp": "2019-01-28 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 28,
+      "timestamp": "2019-01-29 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 28,
+      "timestamp": "2019-01-29 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 29,
+      "timestamp": "2019-01-30 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 29,
+      "timestamp": "2019-01-30 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 30,
+      "timestamp": "2019-01-31 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 30,
+      "timestamp": "2019-01-31 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 31,
+      "timestamp": "2019-02-01 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 31,
+      "timestamp": "2019-02-01 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 32,
+      "timestamp": "2019-02-02 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 32,
+      "timestamp": "2019-02-02 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 33,
+      "timestamp": "2019-02-03 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 33,
+      "timestamp": "2019-02-03 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 34,
+      "timestamp": "2019-02-04 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 34,
+      "timestamp": "2019-02-04 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 35,
+      "timestamp": "2019-02-05 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 35,
+      "timestamp": "2019-02-05 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 36,
+      "timestamp": "2019-02-06 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 36,
+      "timestamp": "2019-02-06 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 37,
+      "timestamp": "2019-02-07 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 37,
+      "timestamp": "2019-02-07 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 38,
+      "timestamp": "2019-02-08 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 38,
+      "timestamp": "2019-02-08 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 39,
+      "timestamp": "2019-02-09 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 39,
+      "timestamp": "2019-02-09 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 40,
+      "timestamp": "2019-02-10 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 40,
+      "timestamp": "2019-02-10 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 41,
+      "timestamp": "2019-02-11 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 41,
+      "timestamp": "2019-02-11 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 42,
+      "timestamp": "2019-02-12 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 42,
+      "timestamp": "2019-02-12 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 43,
+      "timestamp": "2019-02-13 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 43,
+      "timestamp": "2019-02-13 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 44,
+      "timestamp": "2019-02-14 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 44,
+      "timestamp": "2019-02-14 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 45,
+      "timestamp": "2019-02-15 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 45,
+      "timestamp": "2019-02-15 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 46,
+      "timestamp": "2019-02-16 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 46,
+      "timestamp": "2019-02-16 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 47,
+      "timestamp": "2019-02-17 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 47,
+      "timestamp": "2019-02-17 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 48,
+      "timestamp": "2019-02-18 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 48,
+      "timestamp": "2019-02-18 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 49,
+      "timestamp": "2019-02-19 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 49,
+      "timestamp": "2019-02-19 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 50,
+      "timestamp": "2019-02-20 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 50,
+      "timestamp": "2019-02-20 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 51,
+      "timestamp": "2019-02-21 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 51,
+      "timestamp": "2019-02-21 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 52,
+      "timestamp": "2019-02-22 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 52,
+      "timestamp": "2019-02-22 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 53,
+      "timestamp": "2019-02-23 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 53,
+      "timestamp": "2019-02-23 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 54,
+      "timestamp": "2019-02-24 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 54,
+      "timestamp": "2019-02-24 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 55,
+      "timestamp": "2019-02-25 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 55,
+      "timestamp": "2019-02-25 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 56,
+      "timestamp": "2019-02-26 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 56,
+      "timestamp": "2019-02-26 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 57,
+      "timestamp": "2019-02-27 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 57,
+      "timestamp": "2019-02-27 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 58,
+      "timestamp": "2019-02-28 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 58,
+      "timestamp": "2019-02-28 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 59,
+      "timestamp": "2019-03-01 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 59,
+      "timestamp": "2019-03-01 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 60,
+      "timestamp": "2019-03-02 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 60,
+      "timestamp": "2019-03-02 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 61,
+      "timestamp": "2019-03-03 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 61,
+      "timestamp": "2019-03-03 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 62,
+      "timestamp": "2019-03-04 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 62,
+      "timestamp": "2019-03-04 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 63,
+      "timestamp": "2019-03-05 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 63,
+      "timestamp": "2019-03-05 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 64,
+      "timestamp": "2019-03-06 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 64,
+      "timestamp": "2019-03-06 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 65,
+      "timestamp": "2019-03-07 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 65,
+      "timestamp": "2019-03-07 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 66,
+      "timestamp": "2019-03-08 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 66,
+      "timestamp": "2019-03-08 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 67,
+      "timestamp": "2019-03-09 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 67,
+      "timestamp": "2019-03-09 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 68,
+      "timestamp": "2019-03-10 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 68,
+      "timestamp": "2019-03-10 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 69,
+      "timestamp": "2019-03-11 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 69,
+      "timestamp": "2019-03-11 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 70,
+      "timestamp": "2019-03-12 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 70,
+      "timestamp": "2019-03-12 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 71,
+      "timestamp": "2019-03-13 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 71,
+      "timestamp": "2019-03-13 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 72,
+      "timestamp": "2019-03-14 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 72,
+      "timestamp": "2019-03-14 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 73,
+      "timestamp": "2019-03-15 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 73,
+      "timestamp": "2019-03-15 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 74,
+      "timestamp": "2019-03-16 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 74,
+      "timestamp": "2019-03-16 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 75,
+      "timestamp": "2019-03-17 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 75,
+      "timestamp": "2019-03-17 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 76,
+      "timestamp": "2019-03-18 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 76,
+      "timestamp": "2019-03-18 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 77,
+      "timestamp": "2019-03-19 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 77,
+      "timestamp": "2019-03-19 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 78,
+      "timestamp": "2019-03-20 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 78,
+      "timestamp": "2019-03-20 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 79,
+      "timestamp": "2019-03-21 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 79,
+      "timestamp": "2019-03-21 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 80,
+      "timestamp": "2019-03-22 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 80,
+      "timestamp": "2019-03-22 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 81,
+      "timestamp": "2019-03-23 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 81,
+      "timestamp": "2019-03-23 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 82,
+      "timestamp": "2019-03-24 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 82,
+      "timestamp": "2019-03-24 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 83,
+      "timestamp": "2019-03-25 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 83,
+      "timestamp": "2019-03-25 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 84,
+      "timestamp": "2019-03-26 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 84,
+      "timestamp": "2019-03-26 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 85,
+      "timestamp": "2019-03-27 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 85,
+      "timestamp": "2019-03-27 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 86,
+      "timestamp": "2019-03-28 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 86,
+      "timestamp": "2019-03-28 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 87,
+      "timestamp": "2019-03-29 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 87,
+      "timestamp": "2019-03-29 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 88,
+      "timestamp": "2019-03-30 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 88,
+      "timestamp": "2019-03-30 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 89,
+      "timestamp": "2019-03-31 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 89,
+      "timestamp": "2019-03-31 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 90,
+      "timestamp": "2019-04-01 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 90,
+      "timestamp": "2019-04-01 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 91,
+      "timestamp": "2019-04-02 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 91,
+      "timestamp": "2019-04-02 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 92,
+      "timestamp": "2019-04-03 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 92,
+      "timestamp": "2019-04-03 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 93,
+      "timestamp": "2019-04-04 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 93,
+      "timestamp": "2019-04-04 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 94,
+      "timestamp": "2019-04-05 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 94,
+      "timestamp": "2019-04-05 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 95,
+      "timestamp": "2019-04-06 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 95,
+      "timestamp": "2019-04-06 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 96,
+      "timestamp": "2019-04-07 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 96,
+      "timestamp": "2019-04-07 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 97,
+      "timestamp": "2019-04-08 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 97,
+      "timestamp": "2019-04-08 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 98,
+      "timestamp": "2019-04-09 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 98,
+      "timestamp": "2019-04-09 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 99,
+      "timestamp": "2019-04-10 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 99,
+      "timestamp": "2019-04-10 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 100,
+      "timestamp": "2019-04-11 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 100,
+      "timestamp": "2019-04-11 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 101,
+      "timestamp": "2019-04-12 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 101,
+      "timestamp": "2019-04-12 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 102,
+      "timestamp": "2019-04-13 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 102,
+      "timestamp": "2019-04-13 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 103,
+      "timestamp": "2019-04-14 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 103,
+      "timestamp": "2019-04-14 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 104,
+      "timestamp": "2019-04-15 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 104,
+      "timestamp": "2019-04-15 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 105,
+      "timestamp": "2019-04-16 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 105,
+      "timestamp": "2019-04-16 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 106,
+      "timestamp": "2019-04-17 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 106,
+      "timestamp": "2019-04-17 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 107,
+      "timestamp": "2019-04-18 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 107,
+      "timestamp": "2019-04-18 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 108,
+      "timestamp": "2019-04-19 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 108,
+      "timestamp": "2019-04-19 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 109,
+      "timestamp": "2019-04-20 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 109,
+      "timestamp": "2019-04-20 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 110,
+      "timestamp": "2019-04-21 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 110,
+      "timestamp": "2019-04-21 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 111,
+      "timestamp": "2019-04-22 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 111,
+      "timestamp": "2019-04-22 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 112,
+      "timestamp": "2019-04-23 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 112,
+      "timestamp": "2019-04-23 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 113,
+      "timestamp": "2019-04-24 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 113,
+      "timestamp": "2019-04-24 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 114,
+      "timestamp": "2019-04-25 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 114,
+      "timestamp": "2019-04-25 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 115,
+      "timestamp": "2019-04-26 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 115,
+      "timestamp": "2019-04-26 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 116,
+      "timestamp": "2019-04-27 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 116,
+      "timestamp": "2019-04-27 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 117,
+      "timestamp": "2019-04-28 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 117,
+      "timestamp": "2019-04-28 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 118,
+      "timestamp": "2019-04-29 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 118,
+      "timestamp": "2019-04-29 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 119,
+      "timestamp": "2019-04-30 08:00:00",
+      "sensor": "reservoir_water_level",
+      "reason": "missing",
+      "detail": "Empty reservoir water level reading."
+    },
+    {
+      "row": 119,
+      "timestamp": "2019-04-30 08:00:00",
+      "sensor": "tail_water_level",
+      "reason": "missing",
+      "detail": "Empty tail water level reading."
+    },
+    {
+      "row": 2799,
+      "timestamp": "2026-09-01 08:00:00",
+      "sensor": "daily_mean_temperature",
+      "reason": "missing",
+      "detail": "Empty daily mean temperature reading."
+    }
+  ],
+  "warning": "121 of 2800 records (4.3%) are flagged; sensor 'reservoir_water_level' carries the most missing readings."
+}

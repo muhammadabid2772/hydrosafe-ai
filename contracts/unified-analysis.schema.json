@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hydrosafe.example/contracts/unified-analysis.schema.json",
+  "title": "HydroSafe Unified Analysis",
+  "type": "object",
+  "required": ["analysis_id", "project_id", "structure", "generated_at", "data_mode", "source", "quality", "trends", "anomalies", "correlations", "risk", "report"],
+  "properties": {
+    "analysis_id": { "type": "string", "minLength": 1 },
+    "project_id": { "type": "string", "minLength": 1 },
+    "structure": { "enum": ["ACCRD", "POWER_HOUSE", "POWER_INTAKE"] },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "data_mode": { "enum": ["LIVE", "HISTORICAL_REPLAY", "OPERATOR_INPUT"] },
+    "source": { "type": "string", "minLength": 1 },
+    "source_observed_at": { "type": ["string", "null"], "format": "date-time" },
+    "quality": {
+      "type": "object",
+      "required": ["available", "score", "quality_status", "sensor_health"],
+      "properties": {
+        "available": { "type": "boolean" },
+        "score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "quality_status": { "enum": ["GOOD", "WATCH", "POOR", "UNAVAILABLE"] },
+        "sensor_health": { "type": "object" }
+      },
+      "additionalProperties": true
+    },
+    "trends": {
+      "type": "object",
+      "required": ["available", "status", "series"],
+      "properties": {
+        "available": { "type": "boolean" },
+        "status": { "enum": ["READY", "PARTIAL", "UNAVAILABLE"] },
+        "series": { "type": "array", "items": { "type": "object" } }
+      },
+      "additionalProperties": true
+    },
+    "anomalies": { "type": "array", "items": { "type": "object" } },
+    "correlations": { "type": "array", "items": { "type": "object" } },
+    "risk": {
+      "type": "object",
+      "required": ["assessment_status", "score", "level", "warning_message", "interpretation", "contributing_factors", "recommended_next_action", "alerts", "active_alert_count"],
+      "properties": {
+        "score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "assessment_status": { "enum": ["ASSESSED", "NOT_ASSESSED"] },
+        "level": { "enum": ["NORMAL", "WATCH", "WARNING", "CRITICAL"] },
+        "warning_message": { "type": "string", "minLength": 1 },
+        "interpretation": { "type": "string", "minLength": 1 },
+        "recommended_next_action": { "type": "string", "minLength": 1 },
+        "active_alert_count": { "type": "integer", "minimum": 0 },
+        "alerts": { "type": "array", "items": { "type": "object" } },
+        "hydromet_assessment": {
+          "type": "object",
+          "properties": {
+            "supplied": { "type": "boolean" },
+            "status": { "enum": ["NOT_SUPPLIED", "FRESH", "STALE", "FUTURE_DATED"] },
+            "observed_at": { "type": ["string", "null"], "format": "date-time" },
+            "freshness_days": { "type": ["number", "null"] },
+            "summary": { "type": "string" },
+            "baseline_deviations": { "type": "object", "additionalProperties": { "type": "number" } },
+            "direct_risk_contribution": { "const": 0 },
+            "notes": { "type": "array", "items": { "type": "string" } },
+            "anomaly_signal_count": { "type": "integer", "minimum": 0 },
+            "anomaly_detected": { "type": "boolean" },
+            "anomaly_severity": { "type": ["string", "null"], "enum": ["Normal", "Moderate", "High", null] },
+            "anomaly_source": { "type": ["string", "null"] },
+            "anomaly_evidence": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": true
+        },
+        "contributing_factors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "label", "score", "evidence"],
+            "properties": {
+              "key": { "type": "string" },
+              "label": { "type": "string" },
+              "score": { "type": "number", "minimum": 0, "maximum": 100 },
+              "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+              "evidence": { "type": "string" }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "report": { "type": "object" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+data/selected/
+*.xlsx
+*.xlsm
+*.db
+*.sqlite
+*.sqlite3

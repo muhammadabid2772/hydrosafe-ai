@@ -1,0 +1,219 @@
+{
+  "source": "Member 3 extracted P01DS1 observations from the submitted ACCRD piezometer workbook",
+  "structure": "ACCRD",
+  "instrument_id": "P01DS1",
+  "metric": "pore_pressure",
+  "unit": "MPa",
+  "readings": [
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.25995592098936,
+      "timestamp": "2025-05-21T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.256587630427034,
+      "timestamp": "2025-05-25T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.26164063143127,
+      "timestamp": "2025-05-28T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.258666331739388,
+      "timestamp": "2025-05-30T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.252901393582919,
+      "timestamp": "2025-06-06T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.261360671476393,
+      "timestamp": "2025-06-13T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.258850476033525,
+      "timestamp": "2025-06-20T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.26026774780559,
+      "timestamp": "2025-06-27T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.243653327011598,
+      "timestamp": "2025-07-04T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.249933440618082,
+      "timestamp": "2025-07-11T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.259367205214229,
+      "timestamp": "2025-07-18T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.247010094051232,
+      "timestamp": "2025-07-25T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.250226615314619,
+      "timestamp": "2025-08-01T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.247547178415238,
+      "timestamp": "2025-08-03T01:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.257879624220342,
+      "timestamp": "2025-08-03T15:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.261777430092674,
+      "timestamp": "2025-08-08T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.261554159201746,
+      "timestamp": "2025-08-15T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.259180200434456,
+      "timestamp": "2025-08-22T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.259099915189954,
+      "timestamp": "2025-08-29T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.26261057141818,
+      "timestamp": "2025-09-01T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.248128121098936,
+      "timestamp": "2025-09-04T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.255665337083094,
+      "timestamp": "2025-09-12T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.24645064444892,
+      "timestamp": "2025-09-19T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.251485154043284,
+      "timestamp": "2025-09-26T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.238469790468246,
+      "timestamp": "2025-09-29T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.246819695313448,
+      "timestamp": "2025-10-03T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.257496133679074,
+      "timestamp": "2025-10-07T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.244910273184954,
+      "timestamp": "2025-10-10T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.243768720469689,
+      "timestamp": "2025-10-17T00:00:00",
+      "unit": "MPa"
+    },
+    {
+      "instrument_id": "P01DS1",
+      "metric": "pore_pressure",
+      "value": 0.247304803187824,
+      "timestamp": "2025-10-24T00:00:00",
+      "unit": "MPa"
+    }
+  ]
+}
