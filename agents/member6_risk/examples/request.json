@@ -1,0 +1,22 @@
+{
+  "project_id": "karot-demo",
+  "structure": "ACCRD",
+  "readings": [],
+  "quality": {"score": 92, "missing_rate": 0.01, "evidence": "Validation agent accepted 99% of rows."},
+  "trends": [{"instrument_id": "P01DS3", "metric": "pore pressure", "score": 42, "confidence": 0.85, "evidence": "Sustained upward slope over four observations."}],
+  "anomalies": [{"instrument_id": "P01DS3", "metric": "pore pressure", "score": 38, "confidence": 0.8, "evidence": "Moderate deviation from the anomaly agent baseline."}],
+  "correlations": [{"instrument_id": "P01DS3", "metric": "pore pressure", "score": 24, "confidence": 0.7, "evidence": "Response is somewhat higher than peers at similar reservoir level."}],
+  "thresholds": [],
+  "hydromet": {
+    "observed_at": "2026-09-01T08:00:00Z",
+    "reservoir_level_m": 459.04,
+    "tailwater_level_m": 391.69,
+    "inflow_m3_s": 490,
+    "outflow_m3_s": 587,
+    "daily_rainfall_mm": 49,
+    "rainfall_7d_mm": 74.5,
+    "reservoir_change_7d_m": -0.32,
+    "source": "Hydrometeorological data workbook, reviewed daily sheet"
+  },
+  "context": {}
+}

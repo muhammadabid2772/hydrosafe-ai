@@ -1,0 +1,609 @@
+{
+  "model_version": "hydromet-context-v1",
+  "generated_at": "2026-09-12T18:18:18.545806+00:00",
+  "source_sheet": "2021~2026",
+  "row_count": 2800,
+  "date_start": "2019-01-01",
+  "date_end": "2026-09-01",
+  "missing_dates": [
+    "2021-10-24"
+  ],
+  "field_completeness": {
+    "reservoir_level_m": 0.957143,
+    "tailwater_level_m": 0.957143,
+    "inflow_m3_s": 1.0,
+    "outflow_m3_s": 0.348929,
+    "mean_temperature_c": 0.999643,
+    "daily_rainfall_mm": 1.0
+  },
+  "monthly_profiles": {
+    "01|daily_rainfall_mm": {
+      "count": 248,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 17.5
+    },
+    "01|inflow_m3_s": {
+      "count": 248,
+      "median": 158.0,
+      "mad": 28.0,
+      "robust_scale": 41.5128,
+      "q05": 118.438483,
+      "q95": 353.6
+    },
+    "01|mean_temperature_c": {
+      "count": 248,
+      "median": 10.1,
+      "mad": 0.9,
+      "robust_scale": 1.33434,
+      "q05": 6.57,
+      "q95": 12.01625
+    },
+    "01|outflow_m3_s": {
+      "count": 62,
+      "median": 152.0,
+      "mad": 10.0,
+      "robust_scale": 14.826,
+      "q05": 47.05,
+      "q95": 286.9
+    },
+    "01|reservoir_level_m": {
+      "count": 217,
+      "median": 458.51,
+      "mad": 2.17,
+      "robust_scale": 3.217242,
+      "q05": 391.816,
+      "q95": 460.746
+    },
+    "01|tailwater_level_m": {
+      "count": 217,
+      "median": 389.09,
+      "mad": 1.36,
+      "robust_scale": 2.016336,
+      "q05": 386.776,
+      "q95": 390.652
+    },
+    "02|daily_rainfall_mm": {
+      "count": 226,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 15.875
+    },
+    "02|inflow_m3_s": {
+      "count": 226,
+      "median": 260.75,
+      "mad": 75.25,
+      "robust_scale": 111.56565,
+      "q05": 128.804161,
+      "q95": 490.785393
+    },
+    "02|mean_temperature_c": {
+      "count": 226,
+      "median": 13.183333,
+      "mad": 1.716667,
+      "robust_scale": 2.54513,
+      "q05": 9.0,
+      "q95": 17.55
+    },
+    "02|outflow_m3_s": {
+      "count": 56,
+      "median": 154.0,
+      "mad": 62.0,
+      "robust_scale": 91.9212,
+      "q05": 48.0,
+      "q95": 331.75
+    },
+    "02|reservoir_level_m": {
+      "count": 198,
+      "median": 458.65,
+      "mad": 1.855,
+      "robust_scale": 2.750223,
+      "q05": 391.9625,
+      "q95": 460.57
+    },
+    "02|tailwater_level_m": {
+      "count": 198,
+      "median": 389.555,
+      "mad": 1.11,
+      "robust_scale": 1.645686,
+      "q05": 386.75,
+      "q95": 391.2045
+    },
+    "03|daily_rainfall_mm": {
+      "count": 248,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 21.0
+    },
+    "03|inflow_m3_s": {
+      "count": 248,
+      "median": 523.0,
+      "mad": 104.0,
+      "robust_scale": 154.1904,
+      "q05": 307.0,
+      "q95": 1059.5
+    },
+    "03|mean_temperature_c": {
+      "count": 248,
+      "median": 17.4,
+      "mad": 2.7,
+      "robust_scale": 4.00302,
+      "q05": 12.205,
+      "q95": 24.153542
+    },
+    "03|outflow_m3_s": {
+      "count": 62,
+      "median": 159.0,
+      "mad": 109.0,
+      "robust_scale": 161.6034,
+      "q05": 47.0,
+      "q95": 578.55
+    },
+    "03|reservoir_level_m": {
+      "count": 217,
+      "median": 458.81,
+      "mad": 1.5,
+      "robust_scale": 2.2239,
+      "q05": 393.596,
+      "q95": 460.324
+    },
+    "03|tailwater_level_m": {
+      "count": 217,
+      "median": 390.28,
+      "mad": 1.5,
+      "robust_scale": 2.2239,
+      "q05": 387.446,
+      "q95": 394.158
+    },
+    "04|daily_rainfall_mm": {
+      "count": 240,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 17.025
+    },
+    "04|inflow_m3_s": {
+      "count": 240,
+      "median": 1045.0,
+      "mad": 283.902283,
+      "robust_scale": 420.913524,
+      "q05": 580.0,
+      "q95": 1651.0
+    },
+    "04|mean_temperature_c": {
+      "count": 240,
+      "median": 23.2,
+      "mad": 2.5,
+      "robust_scale": 3.7065,
+      "q05": 17.285,
+      "q95": 28.211042
+    },
+    "04|outflow_m3_s": {
+      "count": 90,
+      "median": 912.0,
+      "mad": 299.0,
+      "robust_scale": 443.2974,
+      "q05": 296.2,
+      "q95": 2186.85
+    },
+    "04|reservoir_level_m": {
+      "count": 210,
+      "median": 458.625,
+      "mad": 2.1,
+      "robust_scale": 3.11346,
+      "q05": 395.6145,
+      "q95": 460.8555
+    },
+    "04|tailwater_level_m": {
+      "count": 210,
+      "median": 393.05,
+      "mad": 1.86,
+      "robust_scale": 2.757636,
+      "q05": 388.9445,
+      "q95": 395.6365
+    },
+    "05|daily_rainfall_mm": {
+      "count": 248,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 15.8
+    },
+    "05|inflow_m3_s": {
+      "count": 248,
+      "median": 1293.5,
+      "mad": 215.0,
+      "robust_scale": 318.759,
+      "q05": 806.850769,
+      "q95": 1989.0
+    },
+    "05|mean_temperature_c": {
+      "count": 248,
+      "median": 26.55,
+      "mad": 2.75,
+      "robust_scale": 4.07715,
+      "q05": 21.235,
+      "q95": 31.8
+    },
+    "05|outflow_m3_s": {
+      "count": 93,
+      "median": 1228.0,
+      "mad": 163.0,
+      "robust_scale": 241.6638,
+      "q05": 775.6,
+      "q95": 2233.0
+    },
+    "05|reservoir_level_m": {
+      "count": 248,
+      "median": 458.425,
+      "mad": 2.455,
+      "robust_scale": 3.639783,
+      "q05": 396.6935,
+      "q95": 460.98
+    },
+    "05|tailwater_level_m": {
+      "count": 248,
+      "median": 394.355,
+      "mad": 1.3,
+      "robust_scale": 1.92738,
+      "q05": 390.657,
+      "q95": 396.6065
+    },
+    "06|daily_rainfall_mm": {
+      "count": 240,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 25.5
+    },
+    "06|inflow_m3_s": {
+      "count": 240,
+      "median": 1300.0,
+      "mad": 286.5,
+      "robust_scale": 424.7649,
+      "q05": 651.09671,
+      "q95": 1980.0
+    },
+    "06|mean_temperature_c": {
+      "count": 240,
+      "median": 30.2,
+      "mad": 2.0,
+      "robust_scale": 2.9652,
+      "q05": 24.251458,
+      "q95": 33.938125
+    },
+    "06|outflow_m3_s": {
+      "count": 120,
+      "median": 1174.0,
+      "mad": 296.104167,
+      "robust_scale": 439.004037,
+      "q05": 614.95,
+      "q95": 1907.770833
+    },
+    "06|reservoir_level_m": {
+      "count": 240,
+      "median": 459.235,
+      "mad": 1.485,
+      "robust_scale": 2.201661,
+      "q05": 396.849,
+      "q95": 460.8505
+    },
+    "06|tailwater_level_m": {
+      "count": 240,
+      "median": 394.72,
+      "mad": 1.3,
+      "robust_scale": 1.92738,
+      "q05": 389.9625,
+      "q95": 396.807
+    },
+    "07|daily_rainfall_mm": {
+      "count": 248,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 52.975
+    },
+    "07|inflow_m3_s": {
+      "count": 248,
+      "median": 1100.0,
+      "mad": 300.0,
+      "robust_scale": 444.78,
+      "q05": 640.0,
+      "q95": 1776.5
+    },
+    "07|mean_temperature_c": {
+      "count": 248,
+      "median": 28.2,
+      "mad": 1.5,
+      "robust_scale": 2.2239,
+      "q05": 24.729583,
+      "q95": 31.4
+    },
+    "07|outflow_m3_s": {
+      "count": 124,
+      "median": 924.0,
+      "mad": 327.5,
+      "robust_scale": 485.5515,
+      "q05": 339.85,
+      "q95": 1790.166667
+    },
+    "07|reservoir_level_m": {
+      "count": 248,
+      "median": 459.095,
+      "mad": 1.5,
+      "robust_scale": 2.2239,
+      "q05": 395.4275,
+      "q95": 460.793
+    },
+    "07|tailwater_level_m": {
+      "count": 248,
+      "median": 393.87,
+      "mad": 1.16,
+      "robust_scale": 1.719816,
+      "q05": 390.6035,
+      "q95": 396.102
+    },
+    "08|daily_rainfall_mm": {
+      "count": 248,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 41.325
+    },
+    "08|inflow_m3_s": {
+      "count": 248,
+      "median": 720.5,
+      "mad": 150.5,
+      "robust_scale": 223.1313,
+      "q05": 495.05,
+      "q95": 1362.35
+    },
+    "08|mean_temperature_c": {
+      "count": 248,
+      "median": 27.0,
+      "mad": 1.3,
+      "robust_scale": 1.92738,
+      "q05": 24.2,
+      "q95": 29.3
+    },
+    "08|outflow_m3_s": {
+      "count": 124,
+      "median": 495.333333,
+      "mad": 157.083333,
+      "robust_scale": 232.89175,
+      "q05": 318.15,
+      "q95": 1248.8
+    },
+    "08|reservoir_level_m": {
+      "count": 248,
+      "median": 459.005,
+      "mad": 1.815,
+      "robust_scale": 2.690919,
+      "q05": 393.684,
+      "q95": 460.9
+    },
+    "08|tailwater_level_m": {
+      "count": 248,
+      "median": 392.5,
+      "mad": 0.935,
+      "robust_scale": 1.386231,
+      "q05": 390.5005,
+      "q95": 394.988
+    },
+    "09|daily_rainfall_mm": {
+      "count": 211,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 20.25
+    },
+    "09|inflow_m3_s": {
+      "count": 211,
+      "median": 438.0,
+      "mad": 98.0,
+      "robust_scale": 145.2948,
+      "q05": 292.5,
+      "q95": 1017.5
+    },
+    "09|mean_temperature_c": {
+      "count": 210,
+      "median": 25.55,
+      "mad": 1.35,
+      "robust_scale": 2.00151,
+      "q05": 21.29,
+      "q95": 28.225208
+    },
+    "09|outflow_m3_s": {
+      "count": 62,
+      "median": 431.333333,
+      "mad": 187.166667,
+      "robust_scale": 277.4933,
+      "q05": 165.0,
+      "q95": 1050.75
+    },
+    "09|reservoir_level_m": {
+      "count": 211,
+      "median": 458.86,
+      "mad": 1.99,
+      "robust_scale": 2.950374,
+      "q05": 392.355,
+      "q95": 460.86
+    },
+    "09|tailwater_level_m": {
+      "count": 211,
+      "median": 391.45,
+      "mad": 0.77,
+      "robust_scale": 1.141602,
+      "q05": 389.39,
+      "q95": 394.015
+    },
+    "10|daily_rainfall_mm": {
+      "count": 216,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 8.5
+    },
+    "10|inflow_m3_s": {
+      "count": 216,
+      "median": 244.5,
+      "mad": 36.5,
+      "robust_scale": 54.1149,
+      "q05": 175.75,
+      "q95": 383.25
+    },
+    "10|mean_temperature_c": {
+      "count": 216,
+      "median": 20.6375,
+      "mad": 1.45,
+      "robust_scale": 2.14977,
+      "q05": 18.2,
+      "q95": 24.619792
+    },
+    "10|outflow_m3_s": {
+      "count": 62,
+      "median": 163.0,
+      "mad": 4.0,
+      "robust_scale": 5.9304,
+      "q05": 155.1,
+      "q95": 295.7
+    },
+    "10|reservoir_level_m": {
+      "count": 216,
+      "median": 458.98,
+      "mad": 1.97,
+      "robust_scale": 2.920722,
+      "q05": 391.475,
+      "q95": 460.9625
+    },
+    "10|tailwater_level_m": {
+      "count": 216,
+      "median": 390.095,
+      "mad": 1.02,
+      "robust_scale": 1.512252,
+      "q05": 388.1625,
+      "q95": 391.8
+    },
+    "11|daily_rainfall_mm": {
+      "count": 210,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 4.0
+    },
+    "11|inflow_m3_s": {
+      "count": 210,
+      "median": 205.0,
+      "mad": 37.0,
+      "robust_scale": 54.8562,
+      "q05": 147.45,
+      "q95": 474.85
+    },
+    "11|mean_temperature_c": {
+      "count": 210,
+      "median": 15.4,
+      "mad": 0.989583,
+      "robust_scale": 1.467156,
+      "q05": 12.845,
+      "q95": 20.465
+    },
+    "11|outflow_m3_s": {
+      "count": 60,
+      "median": 160.0,
+      "mad": 1.0,
+      "robust_scale": 1.4826,
+      "q05": 156.0,
+      "q95": 194.2
+    },
+    "11|reservoir_level_m": {
+      "count": 210,
+      "median": 459.095,
+      "mad": 1.91,
+      "robust_scale": 2.831766,
+      "q05": 391.51,
+      "q95": 461.04
+    },
+    "11|tailwater_level_m": {
+      "count": 210,
+      "median": 390.12,
+      "mad": 1.14,
+      "robust_scale": 1.690164,
+      "q05": 387.8245,
+      "q95": 391.79
+    },
+    "12|daily_rainfall_mm": {
+      "count": 217,
+      "median": 0.0,
+      "mad": 0.0,
+      "robust_scale": 0.0,
+      "q05": 0.0,
+      "q95": 1.5
+    },
+    "12|inflow_m3_s": {
+      "count": 217,
+      "median": 166.0,
+      "mad": 26.0,
+      "robust_scale": 38.5476,
+      "q05": 124.0,
+      "q95": 357.4
+    },
+    "12|mean_temperature_c": {
+      "count": 217,
+      "median": 12.6,
+      "mad": 1.3,
+      "robust_scale": 1.92738,
+      "q05": 8.3,
+      "q95": 15.026667
+    },
+    "12|outflow_m3_s": {
+      "count": 62,
+      "median": 153.0,
+      "mad": 4.0,
+      "robust_scale": 5.9304,
+      "q05": 46.0,
+      "q95": 280.0
+    },
+    "12|reservoir_level_m": {
+      "count": 217,
+      "median": 459.46,
+      "mad": 1.42,
+      "robust_scale": 2.105292,
+      "q05": 391.676,
+      "q95": 460.9
+    },
+    "12|tailwater_level_m": {
+      "count": 217,
+      "median": 389.22,
+      "mad": 1.32,
+      "robust_scale": 1.957032,
+      "q05": 385.866,
+      "q95": 390.762
+    }
+  },
+  "latest_context": {
+    "observed_at": "2026-09-01",
+    "reservoir_level_m": 459.04,
+    "tailwater_level_m": 391.69,
+    "inflow_m3_s": 490.0,
+    "outflow_m3_s": 587.0,
+    "mean_temperature_c": null,
+    "daily_rainfall_mm": 49.0,
+    "rainfall_7d_mm": 74.5,
+    "reservoir_change_7d_m": -0.32
+  },
+  "usage": "Context only. It does not independently trigger a structural-risk alarm."
+}
