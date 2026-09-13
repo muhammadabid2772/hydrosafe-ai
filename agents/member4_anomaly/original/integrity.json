@@ -1,0 +1,11 @@
+{
+  "app.py": {
+    "bytes": 10317,
+    "sha256": "ef2439630840992b7343e43aa2cd2efbe4c5a6e8d4eb263affa0433f87278075"
+  },
+  "requirements.txt": {
+    "bytes": 92,
+    "sha256": "6e78a06d4772dc3869c5b9640f5e909a916607416bee1541bbab4949c0681c56"
+  },
+  "policy": "These supplied standalone files are preserved. Integrated backend code must not import or modify them."
+}

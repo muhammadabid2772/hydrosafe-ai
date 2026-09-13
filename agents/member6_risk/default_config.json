@@ -1,0 +1,7 @@
+{
+  "weights": {"data_quality": 0.15, "baseline_deviation": 0.25, "trend": 0.2, "anomaly": 0.25, "correlation": 0.15},
+  "levels": {"watch": 30, "warning": 50, "critical": 70},
+  "minimum_baseline_samples": 12,
+  "strongest_factor_floor": 0.75,
+  "stale_days": 45
+}

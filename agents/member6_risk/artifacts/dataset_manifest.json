@@ -1,0 +1,209 @@
+{
+  "source_archive": "Monthly Report Data for Oct 2025.zip",
+  "scope": [
+    "ACCRD",
+    "POWER_HOUSE",
+    "POWER_INTAKE"
+  ],
+  "selected_workbook_count": 31,
+  "selected_workbook_bytes": 120467816,
+  "workbooks": [
+    {
+      "path": "ACCRD/ACCRD - BV (402 - CSAIL-402-000151-2022 - 1 - A) - 1.XLSX",
+      "bytes": 828649,
+      "sheet_count": 17
+    },
+    {
+      "path": "ACCRD/ACCRD - E (402 - CSAIL-402-000012-2023 - 1 - A) - 1.XLSX",
+      "bytes": 4645136,
+      "sheet_count": 19
+    },
+    {
+      "path": "ACCRD/ACCRD - ID (402 - CSAIL-402-000073-2024 - 1 - A) - 1.XLSX",
+      "bytes": 1071360,
+      "sheet_count": 17
+    },
+    {
+      "path": "ACCRD/ACCRD - J (402 - CSAIL-402-000146-2022 - 1 - A) - 1.XLSX",
+      "bytes": 1983947,
+      "sheet_count": 18
+    },
+    {
+      "path": "ACCRD/ACCRD - P (402 - CSAIL-402-000145-2022 - 1 - A) - 1.XLSX",
+      "bytes": 57109749,
+      "sheet_count": 52
+    },
+    {
+      "path": "ACCRD/ACCRD - S (402 - CSAIL-402-000147-2022 - 1 - A) - 1.XLSX",
+      "bytes": 1904403,
+      "sheet_count": 25
+    },
+    {
+      "path": "ACCRD/ACCRD - TC (402 - CSAIL-402-000124-2023 - 1 - A) - 1.XLSX",
+      "bytes": 1339854,
+      "sheet_count": 17
+    },
+    {
+      "path": "ACCRD/ACCRD- WE (402 - CSAIL-402-000143-2022 - 1 - A) - 1.XLSX",
+      "bytes": 568973,
+      "sheet_count": 5
+    },
+    {
+      "path": "IN/IN01PH (402 - CSAIL-402-000228-2022 - 1 - A) - 1.XLSX",
+      "bytes": 363866,
+      "sheet_count": 9
+    },
+    {
+      "path": "IN/IN01PI (402 - CSAIL-402-000225-2022 - 1 - A) - 1.XLSX",
+      "bytes": 870707,
+      "sheet_count": 9
+    },
+    {
+      "path": "IN/IN02PI (402 - CSAIL-402-000226-2022 - 1 - A) - 1.XLSX",
+      "bytes": 765501,
+      "sheet_count": 9
+    },
+    {
+      "path": "PH/GPH - BV (402 - CSAIL-402-000195-2022 - 1 - A) - 1.XLSX",
+      "bytes": 547751,
+      "sheet_count": 10
+    },
+    {
+      "path": "PH/GPH - GB (402 - CSAIL-402-000190-2022 - 1 - A) - 1.XLSX",
+      "bytes": 733745,
+      "sheet_count": 34
+    },
+    {
+      "path": "PH/GPH - J (402 - CSAIL-402-000193-2022 - 1 - A) - 1.XLSX",
+      "bytes": 691105,
+      "sheet_count": 12
+    },
+    {
+      "path": "PH/GPH - M (402 - CSAIL-402-000194-2022 - 1 - A) - 1.XLSX",
+      "bytes": 436852,
+      "sheet_count": 10
+    },
+    {
+      "path": "PH/GPH - PH - P (402 - CSAIL-402-000019-2023 - 1 - A) - 1.XLSX",
+      "bytes": 3715938,
+      "sheet_count": 23
+    },
+    {
+      "path": "PH/GPH - R (402 - CSAIL-402-000191-2022 - 1 - A) - 1.XLSX",
+      "bytes": 1220743,
+      "sheet_count": 41
+    },
+    {
+      "path": "PH/GPH - WE (402 - CSAIL-402-000196-2022 - 1 - A) - 1.XLSX",
+      "bytes": 409366,
+      "sheet_count": 6
+    },
+    {
+      "path": "PH/PH - D (402 - CSAIL-402-000199-2022 - 1 - A) - 1.XLSX",
+      "bytes": 1361361,
+      "sheet_count": 22
+    },
+    {
+      "path": "PH/PH - M (402 - CSAIL-402-000198-2022 - 1 - A) - 1.XLSX",
+      "bytes": 948127,
+      "sheet_count": 18
+    },
+    {
+      "path": "PH/PH - R (402 - CSAIL-402-000197-2022 - 1 - A) - 1.XLSX",
+      "bytes": 2250368,
+      "sheet_count": 41
+    },
+    {
+      "path": "PI/PI - D (402 - CSAIL-402-000185-2022 - 1 - A) - 1.XLSX",
+      "bytes": 690020,
+      "sheet_count": 13
+    },
+    {
+      "path": "PI/PI - M (402 - CSAIL-402-000187-2022 - 1 - A) - 1.XLSX",
+      "bytes": 799989,
+      "sheet_count": 9
+    },
+    {
+      "path": "PI/PI - P (402 - CSAIL-402-000184-2022 - 1 - A) - 1.XLSX",
+      "bytes": 667848,
+      "sheet_count": 10
+    },
+    {
+      "path": "PI/PI - R (402 - CSAIL-402-000186-2022 - 1 - A) - 1.XLSX",
+      "bytes": 1957090,
+      "sheet_count": 29
+    },
+    {
+      "path": "PI/PIT - M (402 - CSAIL-402-000188-2022 - 1 - A) - 1.XLSX",
+      "bytes": 223214,
+      "sheet_count": 13
+    },
+    {
+      "path": "SURVEY Data/ACCRD - BM (402 - CSAIL-402-000167-2023 - 1 - A) - 1.XLSX",
+      "bytes": 10947405,
+      "sheet_count": 19
+    },
+    {
+      "path": "SURVEY Data/ACCRD - CZ01~CZ03 (402 - CSAIL-402-000149-2023 - 1 - A) - 1.XLSX",
+      "bytes": 129062,
+      "sheet_count": 7
+    },
+    {
+      "path": "SURVEY Data/ACCRD - TP (402 - CSAIL-402-000182-2022 - 1 - A) - 1.XLSX",
+      "bytes": 20618525,
+      "sheet_count": 101
+    },
+    {
+      "path": "SURVEY Data/GPH - BM (402 - CSAIL-402-000176-2022 - 1 - A) - 1.XLSX",
+      "bytes": 358093,
+      "sheet_count": 8
+    },
+    {
+      "path": "SURVEY Data/PIT - BM (402 - CSAIL-402-000170-2022 - 1 - A) - 1.xlsx",
+      "bytes": 309069,
+      "sheet_count": 7
+    }
+  ],
+  "fitted_profile_count": 537,
+  "profile_count_by_structure": {
+    "ACCRD": 299,
+    "POWER_HOUSE": 181,
+    "POWER_INTAKE": 57
+  },
+  "historical_reading_count_by_structure": {
+    "ACCRD": 48445,
+    "POWER_HOUSE": 36086,
+    "POWER_INTAKE": 11849
+  },
+  "profile_count_by_structure_and_type": {
+    "ACCRD:BM": 97,
+    "ACCRD:BV": 12,
+    "ACCRD:CZ": 3,
+    "ACCRD:E": 12,
+    "ACCRD:ID": 10,
+    "ACCRD:J": 10,
+    "ACCRD:P": 41,
+    "ACCRD:S": 16,
+    "ACCRD:TC": 10,
+    "ACCRD:TP": 87,
+    "ACCRD:WE": 1,
+    "POWER_HOUSE:BM": 24,
+    "POWER_HOUSE:BV": 5,
+    "POWER_HOUSE:D": 17,
+    "POWER_HOUSE:GB": 26,
+    "POWER_HOUSE:IN": 1,
+    "POWER_HOUSE:J": 6,
+    "POWER_HOUSE:M": 16,
+    "POWER_HOUSE:P": 14,
+    "POWER_HOUSE:R": 71,
+    "POWER_HOUSE:WE": 1,
+    "POWER_INTAKE:BM": 16,
+    "POWER_INTAKE:D": 7,
+    "POWER_INTAKE:IN": 2,
+    "POWER_INTAKE:M": 10,
+    "POWER_INTAKE:P": 2,
+    "POWER_INTAKE:R": 20
+  },
+  "label_audit": "No verified incident labels or approved project action levels found.",
+  "raw_data_bundled": false
+}
